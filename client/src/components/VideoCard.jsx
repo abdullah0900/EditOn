@@ -9,7 +9,7 @@ const VideoCard = ( { card } ) => {
     if (videoRef.current && videoRef.current.paused) {
       videoRef.current.play();
     }
-  };
+  }; 
   
   const isMouseLeft = () => {
     if (videoRef.current) {
