@@ -9,7 +9,7 @@ const VerificationSuccessPage = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    if (!token) {
+    if (!token) { 
       setError("Verification token not found in the URL");
       return;
     }
