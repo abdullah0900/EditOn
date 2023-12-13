@@ -8,7 +8,7 @@ import close from "../assets/close.svg";
 import { VideoContext } from "../contextApi/VideoContextApi";
 import { useAuth } from '../contextApi/appContext'
 import Progress from "./Progress";
-
+ 
 const Upload = () => {
   const [openDropdown, setOpenDropdown] = useState({});
   const [preview, setPreview] = useState(null);
