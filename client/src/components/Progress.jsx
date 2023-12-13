@@ -7,7 +7,7 @@ const Progress = ({ value }) => {
         value={value} max="100">{`${value}%`}</progress>
         <span className="ml-2 progress-value text-white p-1 bg-black text-sm rounded-full">{`${value}%`}</span>
     </div>
-  );
+  ); 
 };
 
 export default Progress;
