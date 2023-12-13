@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import VideoCard from "./VideoCard";
 
-const Pagination = ({ videos, source, videosPerLoad }) => { 
+const Pagination = ({ videos, source, videosPerLoad }) => {
   const [visibleVideos, setVisibleVideos] = useState([]);
 
   useEffect(() => {

@@ -10,7 +10,7 @@ import {
   MenuItem,
   Tooltip,
   Box,
-} from "@mui/material"; 
+} from "@mui/material";
 import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 import SwitchAccessShortcutIcon from '@mui/icons-material/SwitchAccessShortcut';
 import { useNavigate } from "react-router-dom";

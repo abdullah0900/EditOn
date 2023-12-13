@@ -10,7 +10,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [profileToggle, setProfileToggle] = useState(false);
   const [cToggle, setCToggle] = useState(true);
-  const [auth, setAuth] = useAuth(); 
+  const [auth, setAuth] = useAuth();
   const notifyA = (msg) => toast.error(msg);
   const notifyB = (msg) => toast.success(msg);
   const { searchVideo, handleShowUpload } = useContext(VideoContext);
